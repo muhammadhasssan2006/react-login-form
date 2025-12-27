@@ -45,6 +45,11 @@ let App = () => {
           label='Enter password: '
           placeholder='Enter your password'
           type='text'
+        /> <br /><br />
+        <Input
+          label='confirm password: '
+          placeholder='confirm your password'
+          type='text'
         />
       </div>
     </div>
