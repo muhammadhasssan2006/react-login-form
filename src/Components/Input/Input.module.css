@@ -1,0 +1,15 @@
+.inputComponet{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    margin: 15px 0px;
+    font-size: 16px;
+    padding: 8px 0px;
+    width: 300px;
+    border-bottom: 1.5px solid white;
+}
+.inputComponet::placeholder{
+    color: whitesmoke;
+    margin-left: 0px;
+}
