@@ -1,12 +1,12 @@
 import React from 'react'
 import style from './Button.module.css'
 
-const Button = ({text}) => {
+const Button = ({switchForm,text}) => {
   return (
-    <div>
-        <button>{text}</button>
-    </div>
-  )
+    <>
+        <button onClick={switchForm} >{text}</button>
+    </>
+  );
 }
 
 export default Button

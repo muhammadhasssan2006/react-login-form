@@ -1,4 +1,13 @@
 button{
     padding: 8px 10px;
-    background-color: aqua;
+    background-color: rgb(6, 210, 210);
+    border: 0;
+    outline: none;
+    width: 100px;
+    border-radius: 12px;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-top:5px ;
+    margin-bottom:5px ;
+    
 }

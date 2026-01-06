@@ -3,13 +3,13 @@ import Input from '../Input/Input'
 import style from '../login/Login.module.css'
 import Button from '../button/Button'
 
-const Login = () => {
+const Login = ({switchForm}) => {
   return (
     <div className={style.logincontainer}>
         <h1>Login</h1>
         <Input placeholder=' Username' type='text'   />
         <Input placeholder=' Password' type='password'  />
-        <Button text='Login'/>
+        <Button switchForm={switchForm} text='Login'/>
     </div>
   )
 }
