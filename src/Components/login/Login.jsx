@@ -10,6 +10,8 @@ const Login = ({switchForm}) => {
         <Input placeholder=' Username' type='text'   />
         <Input placeholder=' Password' type='password'  />
         <Button switchForm={switchForm} text='Login'/>
+        <p style={{textAlign:'center',borderBottom:' solid white',paddingBottom:'3%'}}>Forgot pasword?</p>
+        <Button switchForm={switchForm} text='Create new account'/>
     </div>
   )
 }

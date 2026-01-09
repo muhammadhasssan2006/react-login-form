@@ -19,4 +19,4 @@ const Signup = ({switchForm}) => {
   )
 }
 
-export default Login
+export default Signup

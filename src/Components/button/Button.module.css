@@ -3,7 +3,7 @@ button{
     background-color: rgb(6, 210, 210);
     border: 0;
     outline: none;
-    width: 100px;
+    width: 100%;
     border-radius: 12px;
     color: whitesmoke;
     font-weight: 600;
